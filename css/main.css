@@ -2408,8 +2408,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .video-right {
   background: url(../img/img1-01.png) no-repeat center ;
-  height: 420px;
-
+  height: 355px;
   border-radius: 10px;
 }
 
@@ -2427,6 +2426,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width: 800px) {
   .video-right {
     margin-top: 100px;
+    height: 400px;
+    }
   }
 }
 
