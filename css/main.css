@@ -765,6 +765,10 @@ td, th {
   .no-flex-xs {
     display: block !important;
   }
+  .pb-100 {
+    padding-bottom: 60px;
+  }
+  over
 }
 
 .row.no-margin {
@@ -2291,7 +2295,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 1199.98px) {
   .banner-area .fullscreen {
-    height: 920px !important;
+    height: 600px !important;
   }
 }
 
@@ -2335,6 +2339,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   .banner-content h1 {
     font-size: 40px;
   }
+  .profile{background: url(../img/mobile-01.png) no-repeat center;
+    height: 395px;
+  background-size: cover ;}
 }
 
 .banner-content h5 {
@@ -2367,7 +2374,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   .video-sec-area {
     padding-top: 0px;
   }
-  .overlay-bg{width: 100%;}
 }
 
 .video-left {
@@ -2402,7 +2408,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-right {
-  
+  background: url(../img/img1-01.png) no-repeat center ;
   background-size: contain;
   height: 350px;
 
@@ -2410,7 +2416,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .video-right .overlay-bg {
-  background: url(../img/img1-01.png) no-repeat center ;
+  
   background-size: 100%;
   
   border-radius: 10px;
@@ -2483,7 +2489,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .counter-row {
-  margin-top: 100px;
+  margin-top: 80px;
   text-align: center;
 }
 
@@ -2504,7 +2510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-blog .post-tags li {
   font-size: 12px;
-  margin: 20px 0px;
+  margin: 20px 0px 0px 0px;
   display: inline-block;
   border: 1px solid #eee;
   border-radius: 20px;
@@ -2530,6 +2536,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .single-blog h4 {
   margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .single-blog .post-date {
