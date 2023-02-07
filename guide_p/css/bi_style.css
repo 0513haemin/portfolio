@@ -4,7 +4,6 @@ body{
 background-color:#fff;
 }
 div img{
-  width: 60%;
   margin:0 auto;
   display: block;
 }
@@ -12,6 +11,7 @@ div img{
   position: fixed;
   right:100px;
   bottom:100px;
+
 }
 .fixed:hover{
   opacity:0.8;
